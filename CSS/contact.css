@@ -1,0 +1,39 @@
+.cooperation{
+    text-align: center;
+    letter-spacing: 0.0655rem;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-color: var(--bg-text-color);
+}
+.cooperation-title{
+    text-align: center;
+    color: var(--title-color);
+    padding-bottom: 30px;
+    font-weight: 550;
+    font-size: 3.2em;
+}
+.contact_form{
+    border: 1px solid var(--title-color);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-style: unset;
+}
+.cooperation_btn{
+    margin: 10px 0px;
+    width: 10%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: var(--background-color);
+    color: var(--title-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+

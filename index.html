@@ -12,20 +12,18 @@
         <div class="header_logo">
             <img class="header_logo_img" src="img/desctop_mouse.jpg" alt="Computer mouse logo">
         
-            <nav class="nav-bar">
-                <ul>
-                    <li class="nav-link">Features</li>
-                    <li class="nav-link">About mouse</li>
-                    <li class="nav-link">Price</li>
-                </ul>
-            </nav>
+            <div class="nav-bar">
+                <a class="nav-bar-item" href="#benefits">Features</a>
+                <a class="nav-bar-item" href="#about">About mouse</a>
+                <a class="nav-bar-item" href="#cost">Price</a>
+            </div>
         </div>
     </header>
-    <section class="cooperation">
+    <section id="benefits" class="cooperation">
         <h2 class="cooperation-title">Contact us</h2>
         <form action="https://www.freecodecamp.com/email-submit">
-            <input type="email" name="email" placeholder="Enter your email address" required>
-            <input class="cooperation_btn" type="submit" value="Contact">
+            <input class="contact_form" type="email" name="email" placeholder="Enter your email address" required><br>
+            <input class="cooperation_btn" type="submit" value="Confirm">
         </form>
     </section>
     <div class="container">
@@ -43,10 +41,10 @@
                 <p>Each lighting zone on this wireless mouse can be individually programmed in Chroma Studio, making it a standout addition to your battlestation as you light up your opponents.</p>
             </div>
         </section>
-        <section class="about-mouse">
-            <iframe height="315" src="video/Razer_mouse.mp4" frameborder="0" allowfullscreen=""></iframe>
+        <section id="about" class="about-mouse">
+            <iframe  height="315" src="video/Razer_mouse.mp4" frameborder="0" allowfullscreen=""></iframe>
         </section>
-        <section class="price">
+        <section id="cost" class="price">
           <div class="product">
             <div class="leading-mouse_ult">Razer Basilisk Ultimate (RZ01-03170100-R3G1)</div>
             <h2>$180</h2>
@@ -95,3 +93,4 @@
         </section>
     </div>
 </html>
+
