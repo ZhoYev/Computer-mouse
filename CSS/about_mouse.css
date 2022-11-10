@@ -1,0 +1,26 @@
+.features{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    padding: 30px;
+    background-color: var(--background-color);
+    padding-top: 90px;
+    padding-bottom: 120px;
+    border-radius: 190px;
+}
+.features-content-title{
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Cabin', sans-serif;
+    margin-right: 40px;
+}
+.features_discription {
+    color: var(--bg-text-color);
+    text-align: center;
+}
+.features_disc{
+    text-align: center;
+    color: var(--bg-text-color);
+}
