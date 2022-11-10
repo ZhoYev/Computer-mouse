@@ -4,6 +4,7 @@
     padding-top: 95px;
     padding-bottom: 95px;
     background-color: var(--bg-text-color);
+    font-family: 'Roboto', sans-serif;
 }
 .cooperation-title{
     text-align: center;
@@ -19,7 +20,7 @@
     padding-right: 10px;
     margin-bottom: 10px;
     font-size: 20px;
-    border-style: unset;
+    border-style: dotted;
 }
 .cooperation_btn{
     margin: 10px 0px;
@@ -33,15 +34,7 @@
     border-radius: 30px;
     cursor: pointer;
 }
-.about-mouse{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-.about-mouse > iframe{
-    max-width: 560px;
-    width: 100%;
-}
+
 
 
 

@@ -24,3 +24,12 @@
     text-align: center;
     color: var(--bg-text-color);
 }
+.about-mouse{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about-mouse > iframe{
+    max-width: 560px;
+    width: 100%;
+}

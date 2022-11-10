@@ -12,4 +12,8 @@
     --text-color: #5c6062;
     --background-color: #140088;
     --bg-text-color: white;
+    font-family: 'Cabin', sans-serif;
+}
+li{
+    list-style: none;
 }

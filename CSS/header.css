@@ -3,6 +3,7 @@
     padding: 20px 30px;
     top: 0;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 .header_logo{
     display: flex;
