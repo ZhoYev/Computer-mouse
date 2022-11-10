@@ -33,7 +33,15 @@
     border-radius: 30px;
     cursor: pointer;
 }
-
+.about-mouse{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about-mouse > iframe{
+    max-width: 560px;
+    width: 100%;
+}
 
 
 
