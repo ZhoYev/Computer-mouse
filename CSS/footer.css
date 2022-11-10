@@ -1,0 +1,25 @@
+.footer {
+  margin-top: 20px;
+  background-color: var(--background-color);
+  padding: 20px;
+}
+.footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer > ul > li {
+  padding: 0 10px;
+  text-decoration: none;
+  color: var(--title-color);
+}
+.footer > span {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  color: var(--title-color);
+  font-size: 0.9em;
+}
+.footer_nav{
+    text-decoration: none;
+    color: var(--bg-text-color);
+}
